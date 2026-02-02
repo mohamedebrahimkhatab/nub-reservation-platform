@@ -426,3 +426,10 @@ docs/business/
 # Personal notes
 *.personal.md
 NOTES.md
+
+# Environment files
+.env
+.env.local
+
+# VS Code workspace settings (keep shared settings, ignore personal)
+.vscode/settings.json
