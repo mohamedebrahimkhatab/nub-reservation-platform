@@ -416,3 +416,13 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Private documentation and learning materials
+docs/private/
+docs/sessions/
+docs/LEARNING_ROADMAP.md
+docs/business/
+
+# Personal notes
+*.personal.md
+NOTES.md
