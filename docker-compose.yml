@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:18.1
+    container_name: nub-postgres
+    environment:
+      POSTGRES_USER: nubuser
+      POSTGRES_PASSWORD: nubpassword
+      POSTGRES_DB: nubdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nubuser -d nubdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - nub-network
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  nub-network:
+    driver: bridge
