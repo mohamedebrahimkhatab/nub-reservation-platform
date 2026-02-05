@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="src/API/Nub.API/Nub.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Catalog/">
+    <Project Path="src/Modules/Catalog/Nub.Modules.Catalog.Api/Nub.Modules.Catalog.Api.csproj" />
+    <Project Path="src/Modules/Catalog/Nub.Modules.Catalog.Application/Nub.Modules.Catalog.Application.csproj" />
+    <Project Path="src/Modules/Catalog/Nub.Modules.Catalog.Domain/Nub.Modules.Catalog.Domain.csproj" />
+    <Project Path="src/Modules/Catalog/Nub.Modules.Catalog.Infrastructure/Nub.Modules.Catalog.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Nub.Shared.Kernel/Nub.Shared.Kernel.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Nub.Modules.Catalog.Application.Tests/Nub.Modules.Catalog.Application.Tests.csproj" />
+    <Project Path="tests/Nub.Modules.Catalog.Domain.Tests/Nub.Modules.Catalog.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
