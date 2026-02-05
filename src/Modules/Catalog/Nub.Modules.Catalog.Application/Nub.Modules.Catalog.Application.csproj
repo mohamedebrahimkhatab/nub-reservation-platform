@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Nub.Modules.Catalog.Domain\Nub.Modules.Catalog.Domain.csproj" />
-    <ProjectReference Include="..\..\..\Shared\Nub.Shared.Kernel\Nub.Shared.Kernel.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
